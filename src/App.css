@@ -29,6 +29,7 @@ h3{
 
 
 .App{
+  min-height: 100vh;
   background-color: #bd632f;
 }
 
@@ -45,6 +46,13 @@ h3{
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
 }
 
 .card-container{

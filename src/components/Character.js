@@ -2,12 +2,15 @@ import React from 'react'
 
 function Character({items}) {
   return (
-    <div className='container'>
-      <div className="card-container">
+<div className="card-container">
         <div className="card">
+
+        {/* front of the card containe character image */}
         <figure className='front'>
           <img src={items.images[0]} alt="" />
         </figure>
+
+        {/* back of the card containe character information */}
         <figure className='back'>
           <h3>Character information</h3>
           <hr />
@@ -28,6 +31,7 @@ function Character({items}) {
               <span>Village : </span> {items.info.Afiliação}
             </li>
             <li>
+              {/* testing if ther is no data return no information */}
               <span>Patente Ninja : </span>{items.info['Patente Ninja'] ? items.info['Patente Ninja']  : "no information"}
             </li>
             <li>
@@ -36,8 +40,8 @@ function Character({items}) {
           </ul>
         </figure>
         </div>
-      </div>
-    </div>
+</div>
+
   )
 }
 
