@@ -87,10 +87,6 @@ h3{
   border-radius: 5px;
 }
 
-.card  .front{
-  
-}
-
 .card  .back{
   background-color: rgb(57, 55, 55);
   transform: rotateY(180deg);
