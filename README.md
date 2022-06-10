@@ -1,3 +1,19 @@
+# Naruto Character app with React
+
+this is naruto app build with React 
+based on naruto api made by : [https://github.com/gustavonobreza/naruto-api](naruto-api)
+
+api link [https://naruto-api.herokuapp.com/api/v1/characters](naruto-api)
+
+## `fetching with Axios` 
+
+
+```bash
+  npm i axios
+```
+
+more information about axios : [https://www.freecodecamp.org/news/how-to-use-axios-with-react/]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
